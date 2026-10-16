@@ -1,0 +1,264 @@
+{
+  "snapshot_date": "2026-10-16",
+  "scope": "curated source core; external assets and local history excluded",
+  "file_count_excluding_manifest": 36,
+  "files": [
+    {
+      "path": "project/Source/OasisNative/OasisGameMode.cpp",
+      "bytes": 201,
+      "sha256": "adacb7ecb0c3f0ae05c6658e983781e8035e7d43a9815c671e0cb3d2d7336587",
+      "transform": "none",
+      "source_sha256": "adacb7ecb0c3f0ae05c6658e983781e8035e7d43a9815c671e0cb3d2d7336587"
+    },
+    {
+      "path": "project/Source/OasisNative/OasisGameMode.h",
+      "bytes": 241,
+      "sha256": "ade1487c494a7e4087f26ca38a63f8157ae1c58a4e81b4f27575cec9ef3301fd",
+      "transform": "none",
+      "source_sha256": "ade1487c494a7e4087f26ca38a63f8157ae1c58a4e81b4f27575cec9ef3301fd"
+    },
+    {
+      "path": "project/Source/OasisNative/OasisHUD.cpp",
+      "bytes": 10951,
+      "sha256": "7a63a5908eda3daaeaa984138eabb6c31244cd78e43b41759081b9d4a697d7c6",
+      "transform": "none",
+      "source_sha256": "7a63a5908eda3daaeaa984138eabb6c31244cd78e43b41759081b9d4a697d7c6"
+    },
+    {
+      "path": "project/Source/OasisNative/OasisHUD.h",
+      "bytes": 688,
+      "sha256": "c7d10f7f01716b1381026b79ce37f311b33f61d87fb6ef41684980dd916b5102",
+      "transform": "none",
+      "source_sha256": "c7d10f7f01716b1381026b79ce37f311b33f61d87fb6ef41684980dd916b5102"
+    },
+    {
+      "path": "project/Source/OasisNative/OasisMacPointer.h",
+      "bytes": 634,
+      "sha256": "458c6c188ebb0e9975299a2ef781feb3e5466fab9805cc6e327089123e1a32a0",
+      "transform": "none",
+      "source_sha256": "458c6c188ebb0e9975299a2ef781feb3e5466fab9805cc6e327089123e1a32a0"
+    },
+    {
+      "path": "project/Source/OasisNative/OasisMacPointer.mm",
+      "bytes": 4483,
+      "sha256": "893c141a4ece604eb93f46da9c7180e7f0e4b772eb4141785bd65733905d02c1",
+      "transform": "none",
+      "source_sha256": "893c141a4ece604eb93f46da9c7180e7f0e4b772eb4141785bd65733905d02c1"
+    },
+    {
+      "path": "project/Source/OasisNative/OasisNative.Build.cs",
+      "bytes": 427,
+      "sha256": "d55997e01c1c4c71aec920ce604ceba3f6219525cb88e913a43836ec2d6063af",
+      "transform": "none",
+      "source_sha256": "d55997e01c1c4c71aec920ce604ceba3f6219525cb88e913a43836ec2d6063af"
+    },
+    {
+      "path": "project/Source/OasisNative/OasisNative.cpp",
+      "bytes": 427,
+      "sha256": "3cd64858102fc6abe647553e72ab4805fe97be8409f7edfc049bb6261ccf2a28",
+      "transform": "none",
+      "source_sha256": "3cd64858102fc6abe647553e72ab4805fe97be8409f7edfc049bb6261ccf2a28"
+    },
+    {
+      "path": "project/Source/OasisNative/OasisPawn.cpp",
+      "bytes": 21747,
+      "sha256": "4995747aea90ef231f03557941c7311a81297f090fc54287de38add28597724a",
+      "transform": "none",
+      "source_sha256": "4995747aea90ef231f03557941c7311a81297f090fc54287de38add28597724a"
+    },
+    {
+      "path": "project/Source/OasisNative/OasisPawn.h",
+      "bytes": 2689,
+      "sha256": "8c3b015fd43410e04326feac737827a2e353e632cd3fe7721677c951644a48a1",
+      "transform": "none",
+      "source_sha256": "8c3b015fd43410e04326feac737827a2e353e632cd3fe7721677c951644a48a1"
+    },
+    {
+      "path": "project/Source/OasisNative/OasisWorld.cpp",
+      "bytes": 8111,
+      "sha256": "1dd20ac255dc8740a8755cacf5dcc0ece35e4d792557b6735080b85dcb587d17",
+      "transform": "none",
+      "source_sha256": "1dd20ac255dc8740a8755cacf5dcc0ece35e4d792557b6735080b85dcb587d17"
+    },
+    {
+      "path": "project/Source/OasisNative/OasisWorld.h",
+      "bytes": 1428,
+      "sha256": "f2bfcddc27a91f20994e81e127d12bd9754825ee55dc8ddb8d3d095167680f89",
+      "transform": "none",
+      "source_sha256": "f2bfcddc27a91f20994e81e127d12bd9754825ee55dc8ddb8d3d095167680f89"
+    },
+    {
+      "path": "project/Source/OasisNative.Target.cs",
+      "bytes": 348,
+      "sha256": "e6554daf8b09357d672f0fde9a0d69f6d9fae3a92f9f4f050fdc891e7d92e866",
+      "transform": "none",
+      "source_sha256": "e6554daf8b09357d672f0fde9a0d69f6d9fae3a92f9f4f050fdc891e7d92e866"
+    },
+    {
+      "path": "project/Source/OasisNativeEditor.Target.cs",
+      "bytes": 362,
+      "sha256": "93fa13cedd33eca7efa9a57f262aae95223ca94016fb840da71443af93f64962",
+      "transform": "none",
+      "source_sha256": "93fa13cedd33eca7efa9a57f262aae95223ca94016fb840da71443af93f64962"
+    },
+    {
+      "path": "project/Config/DefaultGame.ini",
+      "bytes": 418,
+      "sha256": "3256b6b796addfaa354a90648a0f3e65804597947f3c88da749afd641c440e22",
+      "transform": "none",
+      "source_sha256": "3256b6b796addfaa354a90648a0f3e65804597947f3c88da749afd641c440e22"
+    },
+    {
+      "path": "project/Config/DefaultInput.ini",
+      "bytes": 9458,
+      "sha256": "630500bde73c49c4598657c67cf7882c64b27bb321377729fe40e87a9e5a935f",
+      "transform": "none",
+      "source_sha256": "630500bde73c49c4598657c67cf7882c64b27bb321377729fe40e87a9e5a935f"
+    },
+    {
+      "path": "project/Config/DefaultEngine.ini",
+      "bytes": 888,
+      "sha256": "420f882db9e00382ad694edb9b0f4327f364649c81b45dba688163574fd0fbf1",
+      "transform": "removed entire AndroidFileServer development section; local source unchanged",
+      "source_sha256": "eae1386efa8ba5703a2476160350b8f57416be5aeb85fb72757f3d239e03801e"
+    },
+    {
+      "path": "project/OasisNative.uproject",
+      "bytes": 483,
+      "sha256": "74c143549abfe2c06755bdb127910291e0b1f3d7e7424c340e9d572cf42901ff",
+      "transform": "none",
+      "source_sha256": "74c143549abfe2c06755bdb127910291e0b1f3d7e7424c340e9d572cf42901ff"
+    },
+    {
+      "path": "tools/ue_build_scene.py",
+      "bytes": 14073,
+      "sha256": "29948c5d50fce2405f6fda6f0ce00eb76503cea5e8ff0ef40f92abddbdebb470",
+      "transform": "none",
+      "source_sha256": "29948c5d50fce2405f6fda6f0ce00eb76503cea5e8ff0ef40f92abddbdebb470"
+    },
+    {
+      "path": "tools/ue_axis_gate.py",
+      "bytes": 5883,
+      "sha256": "0825603be9322313831c9f81e311187ccf020446ab6a34ab3b7640e12cc264ec",
+      "transform": "none",
+      "source_sha256": "0825603be9322313831c9f81e311187ccf020446ab6a34ab3b7640e12cc264ec"
+    },
+    {
+      "path": "tools/oasis_outline.hlsl",
+      "bytes": 1751,
+      "sha256": "0f176d7389903984d75a367cb890e5232eaeb77884bc1fccf89062c8125e44a2",
+      "transform": "none",
+      "source_sha256": "0f176d7389903984d75a367cb890e5232eaeb77884bc1fccf89062c8125e44a2"
+    },
+    {
+      "path": "tools/build_lujiazui.py",
+      "bytes": 25244,
+      "sha256": "dcd5f036e8336578b800d55bc73d3390cfc698660b7392ba9f2ec6297063b81f",
+      "transform": "none",
+      "source_sha256": "dcd5f036e8336578b800d55bc73d3390cfc698660b7392ba9f2ec6297063b81f"
+    },
+    {
+      "path": "tools/build_import_package.py",
+      "bytes": 5410,
+      "sha256": "c1e54cb3bb5081a3815d318c6ee756f99e1f067099d51e842a9a5342a291c312",
+      "transform": "none",
+      "source_sha256": "c1e54cb3bb5081a3815d318c6ee756f99e1f067099d51e842a9a5342a291c312"
+    },
+    {
+      "path": "tools/export_native_environment.py",
+      "bytes": 2377,
+      "sha256": "b02b726f03b9ecad63b64edf597cab27d3ab22d1c9362680a83609e344100425",
+      "transform": "none",
+      "source_sha256": "b02b726f03b9ecad63b64edf597cab27d3ab22d1c9362680a83609e344100425"
+    },
+    {
+      "path": "tools/prepare_native_data.py",
+      "bytes": 1681,
+      "sha256": "2fd26d7ecd3758a051e255c0ed8a7a93bece8b5d90e545b544d4b0215e7286b8",
+      "transform": "none",
+      "source_sha256": "2fd26d7ecd3758a051e255c0ed8a7a93bece8b5d90e545b544d4b0215e7286b8"
+    },
+    {
+      "path": "tools/native_build_paths.py",
+      "bytes": 1070,
+      "sha256": "96f61094b07612905906aa5452fbf6767f9e733813f8eeb6d651eb52938595c3",
+      "transform": "none",
+      "source_sha256": "96f61094b07612905906aa5452fbf6767f9e733813f8eeb6d651eb52938595c3"
+    },
+    {
+      "path": "tools/build_native_game.py",
+      "bytes": 1700,
+      "sha256": "4d9bd773cd4ef74fa53bab6c1e520727cdf6f7e98164b43c986ae68f7b3a8fb1",
+      "transform": "none",
+      "source_sha256": "4d9bd773cd4ef74fa53bab6c1e520727cdf6f7e98164b43c986ae68f7b3a8fb1"
+    },
+    {
+      "path": "tools/build_native_editor.py",
+      "bytes": 1716,
+      "sha256": "858f110157b918169ebf7baac0608b8199e6115329aa0b4e8d1e1aed33bdf4a1",
+      "transform": "none",
+      "source_sha256": "858f110157b918169ebf7baac0608b8199e6115329aa0b4e8d1e1aed33bdf4a1"
+    },
+    {
+      "path": "tools/audit_import_package.py",
+      "bytes": 2637,
+      "sha256": "892b0c53f6101c157ef96c018c0b4b43491491a58b7c9f7c8869fae9324ee13b",
+      "transform": "none",
+      "source_sha256": "892b0c53f6101c157ef96c018c0b4b43491491a58b7c9f7c8869fae9324ee13b"
+    },
+    {
+      "path": "tools/audit_assets.py",
+      "bytes": 5056,
+      "sha256": "46c7ccd3f7b70f53e5517b5c19f66d0b97733ef8ab15580a06b220113ca0cb36",
+      "transform": "none",
+      "source_sha256": "46c7ccd3f7b70f53e5517b5c19f66d0b97733ef8ab15580a06b220113ca0cb36"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3543,
+      "sha256": "8f450928fe8809a20d6674b7c199c3e98bc901d945ff280d1cd9cad2970a6810",
+      "transform": "none",
+      "source_sha256": "8f450928fe8809a20d6674b7c199c3e98bc901d945ff280d1cd9cad2970a6810"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 550,
+      "sha256": "c651e140e1f70d9dcad60300ddd87bcf105c56e01a1325852a2bfbe3bd5ef16e",
+      "transform": "none",
+      "source_sha256": "c651e140e1f70d9dcad60300ddd87bcf105c56e01a1325852a2bfbe3bd5ef16e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 241,
+      "sha256": "0f80db8a3a0750325334640e7b122147c5ddbf1a1511401b794f8fd6c9aa376d",
+      "transform": "none",
+      "source_sha256": "0f80db8a3a0750325334640e7b122147c5ddbf1a1511401b794f8fd6c9aa376d"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 2153,
+      "sha256": "87eb175fe2d174dcc207e92b2b3de616ee65615d8e35a4c0ec62239f34210c4a",
+      "transform": "none",
+      "source_sha256": "87eb175fe2d174dcc207e92b2b3de616ee65615d8e35a4c0ec62239f34210c4a"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "bytes": 1591,
+      "sha256": "cee9db7fb5734a0de564cd2bf72ea6113e2afbd9ffc8593319963bfae0c238e2",
+      "transform": "none",
+      "source_sha256": "cee9db7fb5734a0de564cd2bf72ea6113e2afbd9ffc8593319963bfae0c238e2"
+    },
+    {
+      "path": "docs/evidence/HISTORICAL_CHECKS.json",
+      "bytes": 4706,
+      "sha256": "941a6ce388757a9be1c7b0383be8f3be5266e07b6b481dcf1ebe42f54a6de148",
+      "transform": "selected historical fields and original receipt hashes"
+    }
+  ],
+  "checks": {
+    "python_ast_files": 11,
+    "config_files_parsed": 3,
+    "credential_pattern_findings": 0,
+    "fresh_runtime_verification": false
+  }
+}

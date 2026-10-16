@@ -1,0 +1,143 @@
+{
+  "说明": "2026-10-05 原工程历史回执摘要；2026-10-16 导出没有重新运行或视觉验收。原始回执留在本机，以下 SHA256 用于追溯。",
+  "source_receipt_sha256": {
+    "native-axis-gate.json": "fff87fa01af6a4be8c8c731582bd8ef15393ef06a0e46e1074ab6620d46f39fb",
+    "native-runtime-acceptance.json": "2da84d8cbabca583c843c5c6a7ddbb6bbe93ced694995158a7121222c8e15000",
+    "native-packaged-performance.json": "9469046186c03daf49732cab466e4589afca340823b35506d00e56878a9c9754",
+    "native-video-decoded-review.json": "ea82ae0b58bf8735500d137e6f3f6fcf899c7e12ea03bdbcb96b5b421b372767"
+  },
+  "fresh_runtime_verification": false,
+  "human_acceptance": "pending",
+  "axis_gate": {
+    "timestamp_utc": "2026-10-05T16:04:15.886435+00:00",
+    "passed": true,
+    "georeference": {
+      "origin_unreal_cm": [
+        0.0,
+        0.0,
+        5.960464477539063e-08
+      ],
+      "raised_one_meter_unreal_cm": [
+        4.0032943018313173e-16,
+        0.0,
+        100.00000005960464
+      ],
+      "raised_roundtrip_llh": [
+        121.501909,
+        31.236481400000006,
+        1.0000000009905858
+      ]
+    },
+    "axis_import": {
+      "basis_cm_per_enu_meter_columns": [
+        [
+          100.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -100.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          100.0
+        ]
+      ],
+      "root_yaw_correction_degrees": -0.0,
+      "corrected_basis_columns": [
+        [
+          100.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -100.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          100.0
+        ]
+      ],
+      "unit_cube_dimensions_cm": [
+        100.00001525878906,
+        100.00001525878906,
+        100.0
+      ]
+    }
+  },
+  "runtime": {
+    "timestamp_utc": "2026-10-05T20:08:44.329510+00:00",
+    "runtime_verified": true,
+    "scope": "Actual local packaged interaction and sampled appearance. Extracted startup occurred during encoding and is not a performance benchmark. No notarization or other-Mac compatibility test.",
+    "extracted_app_observation": {
+      "first_cold_launch_gear_click_routed": false,
+      "subsequent_gear_click_routed": true,
+      "cause": "Not established; Esc and subsequent close/gear clicks passed."
+    }
+  },
+  "performance": {
+    "scenario": "Packaged HERO preset 6, static camera; no recording/build/encoding running",
+    "viewport": [
+      2880,
+      1620
+    ],
+    "frame_limit": 60,
+    "warmup_seconds": 10,
+    "measurement": "FPlatformTime wall frame intervals, includes pacing and CPU/GPU/application stalls; not isolated GPU timing",
+    "results": {
+      "100": {
+        "timestamp_utc": "2026-10-05T19:18:54.111839+00:00",
+        "metrics": {
+          "scope": "FPlatformTime wall frame intervals after ten-second warmup; includes pacing, not an isolated GPU timer",
+          "viewport_width": 2880,
+          "viewport_height": 1620,
+          "frame_limit": 60,
+          "samples": 1500,
+          "mean_frame_ms": 25.124709861973923,
+          "mean_fps": 39.8014546434024,
+          "p95_frame_ms": 25.77424794435501,
+          "p99_frame_ms": 26.1102095246315,
+          "max_frame_ms": 28.293997049331665,
+          "collision_stops": 0,
+          "render_scale_percent": 100,
+          "tsr_history_percent": 100,
+          "elapsed_seconds": 47.68301487341523
+        },
+        "camera": "HERO preset 6, static"
+      },
+      "75": {
+        "timestamp_utc": "2026-10-05T19:19:57.656715+00:00",
+        "metrics": {
+          "scope": "FPlatformTime wall frame intervals after ten-second warmup; includes pacing, not an isolated GPU timer",
+          "viewport_width": 2880,
+          "viewport_height": 1620,
+          "frame_limit": 60,
+          "samples": 2400,
+          "mean_frame_ms": 16.667743315920234,
+          "mean_fps": 59.99612431305248,
+          "p95_frame_ms": 16.732748597860336,
+          "p99_frame_ms": 16.790833324193954,
+          "max_frame_ms": 17.272915691137314,
+          "collision_stops": 0,
+          "render_scale_percent": 75,
+          "tsr_history_percent": 100,
+          "elapsed_seconds": 49.99984433501959
+        },
+        "camera": "HERO preset 6, static"
+      }
+    }
+  },
+  "video": {
+    "full_video_decode_passed": true,
+    "decoded_motion_verified": true,
+    "review_scope": "Full decoder integrity, twelve sampled visual frames including a full-resolution HERO inspection, and six adjacent-frame motion comparisons; not a claim of watching the entire movie or final human aesthetic acceptance.",
+    "visual_review_passed": true,
+    "human_visual_acceptance": "pending"
+  }
+}
